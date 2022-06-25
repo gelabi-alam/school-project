@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: dimgray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background: url('images/cover.png');
+    width: 100%;
+    background-size: cover;
+}
+
+.container {
+    margin-bottom: 100px;
+}
+
+.top-menu {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.half-width {
+    display: flex;
+    justify-content: space-around;
+    width: 47%;
+}
+
+.left {
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    padding: 20px;
+    margin-left: 90px;
+}
+
+.menu {}
+
+.menu a {
+    padding: 18px;
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.sign-up {
+    color: #fff;
+    background-color: tomato;
+    padding: 12px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+/* content section started */
+header {
+    padding: 80px;
+    margin-left: 75px;
+}
+
+.header h4,
+.popular h3 {
+    color: rgb(219, 46, 16);
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+button {
+    border: none;
+}
+
+button a {
+    color: #fff;
+    padding: 15px 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Popular section started */
+.popular,
+.courses {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.popular h2 {
+    font-size: 40px;
+}
+
+.courses {
+    display: flex;
+}
+
+.course {
+    width: 30%;
+    padding: 10px;
+    box-shadow: ;
+}
