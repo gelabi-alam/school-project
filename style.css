@@ -112,5 +112,8 @@ button a {
 .course {
     width: 30%;
     padding: 10px;
-    box-shadow: ;
+    box-shadow: 10px 10px 40px rgb(191, 190, 190);
+    margin: 20px;
+    border-radius: 5px;
+
 }
