@@ -36,21 +36,21 @@ a {
 }
 
 .left {
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .logo {
     font-size: 22px;
     font-weight: 600;
-    display: block;
+    display: inline-block;
     padding: 20px;
-    margin-left: 90px;
+    margin-left: 50px;
 }
 
 .menu {}
 
 .menu a {
-    padding: 18px;
+    padding: 18px 10px;
     display: inline-block;
     margin-top: 6px;
     font-size: 16px;
@@ -71,7 +71,7 @@ a {
 /* content section started */
 header {
     padding: 80px;
-    margin-left: 75px;
+    margin-left: 30px;
 }
 
 .header h4,
