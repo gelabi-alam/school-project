@@ -24,8 +24,6 @@ a {
 .top-menu {
     display: flex;
     width: 90%;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -107,6 +105,7 @@ button a {
 
 .courses {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .course {
